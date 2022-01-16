@@ -1,0 +1,68 @@
+/* 공지사항 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#noticeform {
+	border-collapse: collapse;
+	width:100%;
+    padding-top: 20px;
+    background-image: url("https://wallpapercrafter.com/th800/108510-winter-train-vehicle-white-mist-red-white-background-simple.jpg");
+    background-size: cover;
+    height: 896px;
+}
+hr {
+	border-top: 1px dotted !important ;
+	margin: 0px !important;
+}
+#noticetable {
+	width: 80%; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+#noticetitle {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#noticetitle p {
+	font-size: 35px;
+	
+}
+#noticetable th {
+	background: #72B7FF; /* 배경색 */
+	padding : 10px
+}
+#noticetable .button {
+	height: 30px;
+	width: 100px;
+	border: 1px solid #A4EBF3;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px #A4EBF3;
+	font-size: 14px;
+	background:lightgray;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: darkblue;
+	margin: 0 0 0 20px;
+}
+
+#noticetable .button:hover{
+	height: 33px;
+	width: 110px;
+	border: 1px solid #A4EBF3;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px rgb(255, 179, 0);
+	font-size: 14px;
+	background: darkgray;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color:rgb(255, 179, 0);
+	margin: 0 0 0 20px;
+}
+.noticetitle {
+  width: 31px;
+  height: 31px;
+}

@@ -1,0 +1,408 @@
+input[type=checkbox]{
+	display: none;
+}
+
+input[type=checkbox]+label{
+	width:50px;
+	display:inline-block;
+	cursor: pointer;
+	background-image: url("../Image/TrainButton/seat_on.png");
+	background-repeat: no-repeat;
+}
+label{
+	text-align:left;
+
+}
+input[type=checkbox]:checked+label{
+	background-image: url("../Image/TrainButton/seat_select.png");
+	background-repeat: no-repeat;
+
+}
+
+input[type=checkbox]:disabled+label{
+	background-image: url("../Image/TrainButton/seat_off.png");
+
+}
+
+.reservationTotal{
+	width:70%;
+	margin: auto;
+	display:flex;
+	border: 1px solid darkblue;
+}
+
+.seat{
+	width: 400px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.seat label{
+	margin-left:20px;
+	padding-top: 55px;
+	padding-left: 5px;
+	
+}
+
+.reservationInfo{
+	width: 300px;
+	background-color: darkblue;
+	color:white;
+	margin-right: 135px;
+}
+
+
+
+
+
+
+
+.select{
+ width: 100px;
+
+ height: 30px;
+ margin-left: 50px;
+}
+
+.list_h2 {
+    width: 100%;
+    height: 100px;
+    background: #799DD4;
+    text-align: center;
+    /* margin: auto; */
+    padding: 30px;
+    color: white;
+}
+.reservationTable > th,td{
+	height: 50px;
+	width: 80px;
+}
+.reservationTable{
+	border:2px solid white;
+	text-align: center;
+}
+
+.reservationTable th{
+	color: white;
+}
+
+.reservationbnt input{
+	width: 160px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: #799DD4;
+    font-weight: bold;
+    border-style: none;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+}
+
+#reservationbnt input {
+	width: 160px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    border-style: none;
+    margin-left: 47%;
+}
+.reservationbnt th {
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+fieldset {  
+	border: 5px solid gray;
+	margin: auto;
+	background: white;
+	border-radius: 5px 20px;
+	border-style: outset;
+	padding: 20px;
+}
+legend {
+	width: 240px;
+    height: 60px;
+    font-size: 35px;
+    color: white;
+    font-style: r;
+    font-weight: bold;
+    background-color: skyblue;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+
+#reservationInfo th {
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+
+#reservationInfo {
+	margin:auto;
+	text-align: center;
+	width: 50%;
+	background: white;
+	border-radius: 20px;
+	border-collapse : collapse;
+	padding: 20px;
+}
+
+table#reservationdeleteInfo {
+    border: 5px solid gray;
+}
+
+#reservationdeleteInfo th {
+	font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+
+/* 예메취소 취소추가 */
+#reservation_topbox {
+	width:700px;
+	height: 60px;
+	color: white;
+	background-color: #799DD4;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	font-weight: 250;
+}
+
+#reservation_innerbox {
+	width: 700px;
+}
+
+#date {
+	width: 600px;
+	height: 30px;
+	background-color: #DDE0E6;
+	padding-left: 14px;
+	padding-top:5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.reservation_innerbox2 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	border-top: none;
+	width: 305px;
+	height: 200px;
+}
+
+.reservation_innerbox3 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	width: 305px;
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+.reservation_font {
+	color: gray;
+	float: left;
+	width: 120px;
+	line-height: 50px;
+	padding-left: 14px;
+}
+
+#boxing {
+	margin-left: 40px;
+}
+
+.info {
+	font-size: 28px;
+	line-height: 50px;
+	font-weight: lighter;
+}
+
+.info2 {
+	line-height: 50px;
+}
+
+#reservation_cancel {
+	width:600px;
+	line-height: 25px;
+}
+
+#reservation_cancelinfo li {
+	list-style-type: disc;
+	font-size: 13px;
+}
+
+
+/* 가은 추가한 부분 */
+.content {
+    margin: auto;
+    height: 1300px;
+}
+
+.list_h2 {
+	width: 100%;
+    height: 100px;
+    background: #799DD4;
+    text-align: center;
+    /* margin: auto; */
+    padding: 30px;
+    color: white;
+}
+
+#rvlist_topbox {
+	width:1000px;
+	height: 390px;
+	margin: auto;
+}
+
+#rvlist_boxing {
+	margin: auto 0;
+}
+
+#rvlist_date {
+	width: 1000px;
+    height: 40px;
+    background-color: #DDE0E6;
+    padding-left: 34px;
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#rvlist_innerbox {
+	width: 1000px;
+}
+
+.rvlist_innerbox2 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	border-top: none;
+	width: 500px;
+	height: 200px;
+	font-size: 20px;
+}
+
+.rvlist_innerbox3 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	width: 500px;
+	height: 100px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+.rvlist_font {
+	color: gray;
+	float: left;
+	width: 200px;
+	line-height: 50px;
+	padding-left: 34px;
+}
+
+.rvlist_info {
+	font-size: 28px;
+	line-height: 50px;
+	font-weight: lighter;
+}
+
+.rvlist_info2 {
+	line-height: 50px;
+}
+
+.rvlist_topbtn {
+	width: 1000px;
+    height: 60px;
+    margin: auto;
+    border: 1px #DDE0E6;
+}
+
+.rvlist_topbtn input[type=button] {
+	width: 497px;
+    height: 60px;
+    border-style: none;
+    color: white;
+    background-color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rvlist_innerbox3 input[type=button] {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 75%;
+    border-style: none;
+    background: gray;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#no_rv {
+	margin: auto;
+    height: 896px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+	
+}
+/* #rvlist_topbox_2 {
+	width:700px;
+	height: 60px;
+	color: white;
+	background-color: skyblue;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	font-weight: 250;
+}
+
+#rvlist_boxing {
+	margin-left: 40px;
+}
+
+#rvlist_innerbox {
+	width: 700px;
+}
+
+#rvlist_date {
+	width: 600px;
+	height: 30px;
+	background-color: #DDE0E6;
+	padding-left: 14px;
+	padding-top:5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#rvlist_innerbox2 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	border-top: none;
+	width: 305px;
+	height: 200px;
+}
+
+.rvlist_font {
+	color: gray;
+	float: left;
+	width: 120px;
+	line-height: 50px;
+	padding-left: 14px;
+}
+
+.rvlist_info2 {
+	line-height: 50px;
+}
+
+.rvlist_innerbox3 {
+	float: left;
+	border: solid 1px #DDE0E6;
+	width: 305px;
+	height: 100px;
+	margin-bottom: 50px;
+ }*/

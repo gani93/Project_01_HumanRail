@@ -1,0 +1,546 @@
+/* 로그인 */
+#login_h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#loginform {
+    width:100%;
+    background: linear-gradient(to top,#E8F2FB, #B8D7F9 );
+}
+
+fieldset {
+	border-style: none;
+}
+#top {
+	margin-top:100px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 32px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+
+.tall {
+	padding-left:45px;
+}
+
+#box {
+	width:600px;
+	height:100%;
+	margin:auto;
+	background-color:white;
+}
+
+#box_inner {
+	margin:50px;
+	padding-top:35px;
+}
+
+#login input {
+	width:390px;
+	height:40px;
+	margin-top:5px;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1 solid;
+	border-bottom-color: #E3EFFB;
+	margin-left:10px;
+}
+
+#login_button input {
+    width: 400px;
+    height: 65px;
+    background:darkblue;
+    border-width: thin;
+    margin-top: 40px;
+    color: white;
+    letter-spacing: 2px;
+    font-size:18px; 
+    letter-spacing: 2px;
+    font-weight: bold; 
+}
+
+#join_area input {
+	 width:100%;
+	 height:100px;
+	 background:#E6F9FF;
+	 font-size:18px;
+	 border-style: none;
+	 font-weight: bold;
+}
+
+#find_info_button {
+	padding-top:20px;
+	padding-left:165px;
+	font-size: 13px;
+}
+
+#find_info_button input {
+	 border:0;
+	 background:transparent; 
+}
+
+#message {
+	color:red;
+	font-size:13px;
+	width: 400px;
+    height: 55px;
+    text-align:center;
+    margin-top:20px;
+    margin-left:60px;
+    letter-spacing: 1px;
+}				
+
+/* 회원가입 */
+.user_h1 {
+	font-size: 35px;
+    font-weight: bold;
+}
+
+.user_h2 {
+	font-size: 27px;
+    font-weight: bold;
+}
+
+#joinarea {
+	width: 1280px;
+    height: 1200px;
+    margin: auto;
+}
+
+.jointall {
+	float:left;
+	width: 210px;
+}
+
+#sidebox {
+	margin-right:90px;
+}
+
+
+#joinguide {
+	margin-top:30px;
+	margin-bottom:40px;
+	line-height:30px;
+	border-bottom-color: gray;
+}
+
+.joinform {
+	width: 800px;
+	margin-left:80px;
+}
+
+#join_ul {
+   list-style:none;
+}
+
+.joinform input {
+	width:600px;
+	height:40px;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1 solid;
+	border-bottom-color:3f48cc;
+	border-width: thin;
+	margin:8px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.joinform input[type=button] {
+	width:70px;
+	color:white;
+	border-color: solid darkgray;
+	background-color: gray;
+	border-bottom: none;
+}
+
+#hint {
+	width: 450px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+
+.joinform input:focus{
+    outline: border;
+    border: 1px solid 3f48cc;
+    /* box-shadow: 8px 8px 8px darkblue;
+    -moz-box-shadow: 2px 2px 8px darkblue;
+    -webkit-box-shadow: 2px 2px 8px darkblue; */
+}
+
+.joinbutton {
+	float: left;
+	margin-left:115px;
+	margin-top: 20px;
+}
+
+.joinbutton input {
+	width: 250px;
+    height: 55px;
+}
+
+#joinbutton input{
+	width:150px;
+	height:40px;
+	letter-spacing: 3px;
+	background:#013066;
+	color: white;
+	border-style: none;
+	font-weight: bold;
+}
+
+#cancelbutton input {
+	background:white;
+	color: #013066;
+	border-width: thin;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#savebutton input {
+    background:#013066;
+	color: white;
+	border-width: thin;
+	font-size: 15px;
+}
+
+/* 회원가입 완료 */
+#joinok_table {
+	width:500px;
+}
+
+#joinul li {
+	position: relative; 
+	padding-left: 22px; 
+	font-size: 20px;
+}
+
+
+.join_key div{
+	border-bottom: solid 1px; 
+	border-bottom-color: #E3EFFB;
+}
+
+.join_value div {
+	border-bottom: solid 1px; 
+	border-bottom-color: #E3EFFB;
+}
+
+
+#joinokbox {
+    margin: auto;
+    width: 300px;
+}
+
+#joinok_h4 {
+	font-size: 15px;
+	color:gray;
+	line-height: 25px;
+}
+
+/* 아이디 찾기 */
+
+div#info_message {
+    margin-left: 30%;
+    margin-top: 50px;
+    /* border: solid; */
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#findarea {
+  	height: 1000px;
+    width: 1280px;
+    margin: auto;
+}
+
+.findid {
+	float:left;
+	margin-right: 150px;
+}
+.findid input {
+	width: 300px;
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: thin;
+    margin: 8px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+#findok_img {
+    height: 60px;
+}
+
+#findidguide {
+	margin-top:30px;
+	margin-bottom:40px;
+	line-height:30px;
+	border-bottom-color: gray;
+}
+
+#findidform {
+	width: 1250px;
+    margin: auto;
+}
+
+.find_button input {
+	width:150px;
+	height:40px;
+	letter-spacing: 3px;
+	background:#013066;
+	color: white;
+	border-style: none;
+	margin-top:10px;
+}
+
+#findform {
+	margin-left: 70px;
+	width: 1250px;
+}
+
+.findpwdform {
+	height:1200px;
+	width: 1280px;
+}
+
+.span {
+	margin-left: 70px;
+	font-size: 20
+}
+
+
+#findidform {
+	width: 1250px;
+}
+
+
+.findpwd {
+	display: flex;
+	width: 590px;
+	height: 40px;
+}
+
+.findpwd input {
+	height:40px;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1 solid;
+	border-width: thin;
+	margin-left: 50px;
+}
+
+#findbox {
+	width: 1200px;
+    display: flex;
+    padding-top: 30px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+
+/* 회원가입완료 */
+/* #joinok_table {
+	width:800px;
+	border-bottom: 1px solid;	
+	font-size: 30px;
+	border-color: 3f48cc;
+	margin: auto 50;
+}
+
+#joinokbutton {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+#joinokform {
+	height:1200px;
+}
+
+.test{
+  	float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    color: gray;
+    margin-left: 30px;
+}
+
+#info_message {
+	width:300px;
+	height:50px;
+	color:red;
+	margin-left: 500px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 25px;
+} */
+/* 아이디 중복체크 */
+#idchk_space {
+    padding-top: 8px;
+}
+
+/* 아이디 찾기 완료  */
+.showinfo_h1 {
+	text-align: center;
+    font-weight: bold;
+}
+.test1 {
+    width: 700px;
+    text-align: left;
+}
+
+.test2 {
+    width: 700px;
+    text-align: right;
+}
+
+.show {
+    height: 1200px;
+    width: 1280px;
+    margin: auto;
+}
+
+.showinfo {
+    height: 250px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: auto;
+}
+
+.showinfo_wrap {
+    margin: auto;
+    width: 500px;
+    border: solid lightgray;
+    padding: 50px;
+}
+/* 
+.showbutton {
+    margin-left: 45px;
+} */
+
+.showbutton input {
+	width: 400px;
+    height: 55px;
+    letter-spacing: 3px;
+    background: #013066;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.findh1 {
+	padding-top: 50px;
+    margin: auto;
+    width: 350px;
+}
+	
+.showinfobox {
+    width: 600px;
+    height: 70px;
+	border-bottom: solid;
+	border-color: #A6A6A6
+}
+
+.joinokbox {
+    float: left;
+    display: flex;
+    width: 400px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px gray;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+
+/* 마이페이지 */
+#okbutton input {
+	width: 176px;
+    height: 55px;
+	letter-spacing: 3px;
+	background:#013066;
+	color: white;
+	border-style: none;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 200px;
+}
+
+
+.img {
+	width: 400px;
+    height: 140px;
+}
+
+#img2 {
+	margin-left: 30%;
+	width: 400px;
+    height: 140px;
+}
+
+.updatebtnzone {
+    width: 800px;
+}
+
+#joinguide > h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.jointall > h2 {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+/* #join_table {
+	border: solid 1px;
+	width: 500px;
+	height: 550px;
+	border-collapse: collapse;
+}
+
+#login_table tr td {
+	border: solid 1px;
+	text-align:center;
+}
+
+#button input {
+	width: 100px;
+    height: 50px;
+    background:darkblue;
+    color: white;
+    font-weight: bold; 
+    border-style: none;
+}
+
+#login_table input {
+	width: 70%;
+    height: 30px;
+} */
+
+/* 회원가입 */
+
+/* 아이디/비번찾기 버튼 */
+
+
+
